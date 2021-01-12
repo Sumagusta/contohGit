@@ -17,11 +17,16 @@ public class KelasForDasar {
 			noAntrian +=1;
 		}
 		
-//		1Dapat Hadiah 0
-//		2Dapat Hadiah 1
-//		3Dapat Hadiah 2
-//		4Tidak Dapat Hadiah 3
-//		5Tidak Dapat Hadiah 4
+		int a = 0;
+		for (int i = 0; i < 10; i++) {
+			
+			if (i%2 == 0) {
+				System.out.println("KH");
+			}else {
+				System.out.println(a);
+				a+=1;
+			}
+		}
 
 	}
 
